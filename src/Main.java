@@ -22,7 +22,8 @@ public class Main {
         } else{
             System.out.println("Serie retro popular del momento");
         }
-        for (int i = 0; i < 3; i++) {
+        while (count < 3 ) {
+            count++;
             Scanner teclado = new Scanner(System.in);
             System.out.println("Ingresa la calificacion que le das a " + nombre);
             double calflash = teclado.nextDouble();
